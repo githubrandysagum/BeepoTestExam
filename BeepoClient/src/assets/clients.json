@@ -1,0 +1,19 @@
+[{
+    "intClientId" : 1,
+    "strClientId" : "0001",
+    "strFirstName" : "Ann Eliza",
+    "strLastName" : "Balsille",
+    "strPhoneNumber" : "(03) 5386 2453",
+    "strAddress" : "29 Commercial Street, Baynton, VIC 3444",
+    "strEmail" : "ElizaBalsille@dayrep.com",
+    "dtmBirthDate" : "03/22/1947"
+},{
+    "intClientId" : 2,
+    "strClientId" : "0002",
+    "strFirstName" : "Indian",
+    "strLastName" : "Balsille",
+    "strPhoneNumber" : "(03) 5386 2453",
+    "strAddress" : "29 Commercial Street, Baynton, VIC 3444",
+    "strEmail" : "ElizaBalsille@dayrep.com",
+    "dtmBirthDate" : "03/22/1947"
+}]

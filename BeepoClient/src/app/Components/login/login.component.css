@@ -1,0 +1,63 @@
+.Container{
+    background : rgb(57, 140, 250);
+    height: 100%;
+    padding: 10%;
+    padding-top : 20px;
+    align-content: center;
+  }
+
+.company-title{
+    color : whitesmoke;
+    font-size: 12pt;
+    margin-left:10px;
+}
+
+.logo{
+    margin-top:10%;
+    height: 70px;
+    margin-left:10px;
+    align-self: center;
+    margin-left : 36%;
+}
+
+
+.login{
+    color : lightgray;
+}
+
+.Content{
+    background :white;
+    width: 30%;
+    height: 30%;
+    padding:5%;
+    margin-left:25%;
+    align-content: Center;
+    box-shadow: 1px 1px 2px 2px lightgray;
+}
+
+.title{
+    width: 100%;
+    padding-left:20%;
+    font-weight: 600;
+    color:darkgray;
+    letter-spacing: 2px;
+}
+
+input{
+    margin-top : 30px;
+    width:95%;
+    border-radius:2px;
+    border: 1px solid lightgray;
+    padding : 10px;
+}
+
+button{
+    margin-top : 30px;
+    width:100%;
+    border-radius:2px;
+    background:  rgb(105, 207, 105);
+    border : none;
+    padding : 10px;
+    color: white;
+    letter-spacing: 2px;
+}

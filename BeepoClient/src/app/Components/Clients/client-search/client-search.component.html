@@ -1,0 +1,55 @@
+<nav class="nav">
+    <img src="assets/legaleagles.png" class="logo" alt="logo">
+    <ul class="menu">
+      <li class="menu-list"><a>Home |</a></li>
+      <li class="menu-list username"><a>{{username}}</a></li>
+      <li class="menu-list login" (click)="logout()"><a>Log out</a></li>
+    </ul>
+  </nav>
+  <div class="Container">
+      <div class="Content">
+          <span class="title" routerLink="/clients" routerLinkActive="active">Clients</span>
+          <span class = "new" routerLink="/client" routerLinkActive="active">New</span> 
+          <table class = "table">
+             <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Mobile Number</th>
+                <th>Email</th>
+                <th>Birth Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr *ngFor = 'let client of clients'>
+              <td>{{client.strClientId}}</td>
+              <td>{{client.strFirstName}}</td>
+              <td>{{client.strLastName}}</td>
+              <td>{{client.strAddress}}</td>
+              <td>{{client.strPhoneNumber}}</td>
+              <td>{{client.strEmail}}</td>
+              <td>{{client.dtmBirthDate}}</td>
+              <td>
+              <a class = "edit"  routerLink="/clients/{{client.intClientId}}/1" routerLinkActive="active">Edit</a> 
+              <a class = "delete"  routerLink="/clients/{{client.intClientId}}/2" routerLinkActive="active">Delete</a>
+              </td>
+            </tr>
+          </table>
+          
+              <span class="paging">
+                  <span>Page</span>
+                  <span class="prev"><</span>
+                  <button class="page">1</button>
+                  <span class="next">></span>
+                  <span>of 10</span>
+              </span>
+              
+  
+         
+          
+          
+      </div>
+  
+  </div>
+    
+    

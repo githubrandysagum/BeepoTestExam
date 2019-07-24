@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\" />
+    <Folder Include="BusinessLayer\Implementation\" />
+    <Folder Include="BusinessLayer\Interface\" />
+    <Folder Include="DI\" />
+    <Folder Include="WebApi\Implementation\" />
+    <Folder Include="WebApi\Interface\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+</Project>

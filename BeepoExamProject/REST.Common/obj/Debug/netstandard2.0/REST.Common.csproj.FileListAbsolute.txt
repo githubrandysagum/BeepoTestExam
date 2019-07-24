@@ -1,0 +1,8 @@
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\bin\Debug\netstandard2.0\REST.Common.deps.json
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\bin\Debug\netstandard2.0\REST.Common.dll
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\obj\Debug\netstandard2.0\REST.Common.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\obj\Debug\netstandard2.0\REST.Common.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\obj\Debug\netstandard2.0\REST.Common.AssemblyInfo.cs
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\bin\Debug\netstandard2.0\REST.Common.pdb
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\obj\Debug\netstandard2.0\REST.Common.dll
+C:\Users\DELL\Desktop\BeepoExam\BeepoExamProject\REST.Common\obj\Debug\netstandard2.0\REST.Common.pdb

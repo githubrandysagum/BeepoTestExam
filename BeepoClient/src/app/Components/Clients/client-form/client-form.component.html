@@ -1,0 +1,52 @@
+<nav class="nav">
+    <img src="assets/legaleagles.png" class="logo" alt="logo">
+    <ul class="menu">
+      <li class="menu-list"><a>Home |</a></li>
+      <li class="menu-list username"><a>John Parker</a></li>
+      <li class="menu-list login"><a>Log out</a></li>
+    </ul>
+  </nav>
+<div class="Container">
+  
+  <div class="Container">
+    <div class="Content">
+        <form>
+          <h4 class="title"> New Client</h4>
+          
+            <hr class="line">
+            <div class="form-group col-md-12">
+                <label for="inputEmail4">Id</label><br>
+                <input type="text" class="form-control col-3" [(ngModel)]="client.strClientId" name="Id">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputFirstName">First Name</label>
+              <input type = "text"  class="form-control" [(ngModel)]="client.strFirstName" name = "FirstName">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Last Name</label>
+              <input type="text" class="form-control" [(ngModel)]="client.strLastName" name="LastName">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="inputAddress">Address</label>
+                <input type="text"  class="form-control" [(ngModel)]="client.strAddress"  name="Address">
+              </div>
+            <div class="form-group col-9">
+              <label for="inputEmail4">Email</label>
+              <input type="email"  class="form-control" [(ngModel)]="client.strEmail"  name="Email">
+            </div>
+            <div class="form-group col-4">
+              <label for="inputEmail4">Mobile Number</label>
+              <input type="text"  class="form-control" [(ngModel)]="client.strPhoneNumber"  name="PhoneNumber">
+            </div>  
+          
+            <div class="form-group col-4">
+                <label for="inputAddress">Birth Date</label>
+                <input type="text"  class="form-control" [(ngModel)]="client.dtmBirthDate"  name="BirthDate">
+              </div>
+          <button type="button"  *ngIf= "editNewOpt"  class="btn btn-success" (click)= "save()">Save</button>
+          <button type="button"  *ngIf= "deleteOpt" class="btn btn-primary" (click)= "delete()">Delete</button>
+          <button type="button" class="btn btn-default" (click)= "cancel()">Cancel</button>
+        </form>
+    </div>
+  </div>
+</div>

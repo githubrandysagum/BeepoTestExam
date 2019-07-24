@@ -1,0 +1,121 @@
+.Container{
+    background : lightgrey;
+    height: 100%;
+    padding: 10%;
+    padding-top : 20px;
+    align-content: center;
+  }
+.nav{
+    background-color:rgb(57, 140, 250);
+    padding : 15px;
+    padding-left: 30px;
+}
+
+.company-title{
+    color : whitesmoke;
+    font-size: 12pt;
+    margin-left:10px;
+}
+
+.logo{
+    height: 40px;
+    margin-left:10px;
+}
+.menu{
+    color : whitesmoke;
+    letter-spacing: 1px;
+    font-size: 8pt;
+    float:right;
+    margin-right: 20px;
+}
+.menu-list{
+    display: inline;
+    padding-left : 5px;
+    
+}
+
+.menu-list:hover{
+    color :  rgb(240, 162, 60);
+    cursor: pointer;
+}
+.username{
+    font-weight: bold;
+}
+
+.login{
+    color : lightgray;
+}
+
+.Content{
+    background :white;
+    padding : 30px;
+    height: 400px;
+    width: 600px;
+    margin-left:20%;
+}
+
+.line {
+    border: 1px solid lightgray;
+    background: lightgray;
+}
+
+.title{
+ color :  rgb(240, 162, 60);
+}
+
+label{
+    margin-right : 1em;
+    margin-bottom : 5px;
+    padding-bottom : 10px;
+    font-size : 14px;
+    color : rgb(95, 88, 88);
+    font-weight: bold;
+
+}
+input{
+    margin-top:10px;
+    border-radius : 3px;
+    width: 100%;
+    height:20px;
+    border:1px solid lightgray; 
+    padding-left:5px;
+    color : darkgray;
+}
+
+
+.col-3 {
+    width : 20%;
+}
+.col-4 {
+    width : 25%;
+    float: left;
+    margin-right: 20px;
+}
+.col-9 {
+    width : 40%;
+    float: left;
+    margin-right: 20px;
+}
+.col-md-12{
+    width: 98%;
+    margin-right : 20px;
+}
+.col-md-6{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+button{
+    float: right;
+    background : rgb(48, 216, 137);
+    border : none;
+    padding : 7px 20px 7px 20px;
+    border-radius:5px;
+    margin : 5px;
+    color : white;
+}
